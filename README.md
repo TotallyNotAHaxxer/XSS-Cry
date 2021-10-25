@@ -70,3 +70,6 @@ Detected Payloads in file ->  7136
 [+] XSSI Returned True At -> 2021-10-24 21:10:37.168141
 [+] XSS Detected -> https://xss-game.appspot.com/level1/frame
 ```
+# libs and langs <br>
+Python, Go-Lang <br>
+`libs: socket, colorama, bs4, urlparse, readlines, argparse, requests, pprint, tabulate | go -> aura, and go-query`
