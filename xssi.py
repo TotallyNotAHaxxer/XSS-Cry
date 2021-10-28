@@ -17,13 +17,7 @@ def reline():
         print("\033[31mDetected Payloads in file -> ", ln)
 def banner():
     print("\x1b[H\x1b[2J\x1b[3J")
-    print("""
- _  _  ___  ___        ___  ____  _  _ 
-( \/ )/ __)/ __) ___  / __)(  _ \( \/ )
- )  ( \__ ||__ \(___)( (__  )   / \  / 
-(_/\_)(___/(___/      \___)(_)\_) (__) 
-──────────────────────────────────────
-    """)
+    os.system("figlet -f slant XSS-CRY |lolcat --animate --spread")
 def parsesocket():
     rel = f"{url}"
     rels = re.search(r'^http[s]*:\/\/[\w\.]*', rel).group()
